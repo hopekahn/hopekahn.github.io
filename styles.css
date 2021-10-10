@@ -1,4 +1,101 @@
-h1 {color: #33485e;
-    font-size: 36px;
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Oxygen', sans-serif;
 
+h1 {
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.firstp, .secondp, .thirdp {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+.subhead {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 23px;
+}
+
+ul {
+    list-style-type: square;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+ol {
+    list-style-type: upper-roman;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+.subhead2 {
+    font-family: 'Oxygen', sans-serif;
+    font-style: bold;
+    font-size: 23px;
+
+}
+
+.subhead3 {
+    font-family: 'Oxygen', sans-serif;
+    font-style: bold;
+    font-size: 18px;
+
+}
+
+.subhead4 {
+font-family: 'Oxygen', sans-serif;
+    font-style: bold;
+    font-size: 15px;
+
+}
+
+.subhead5 {
+    font-family: 'Oxygen', sans-serif;
+    font-style: bold;
+    font-size: 10px;
+}
+
+.color-palette {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.color-1 {
+    display: inline-block;
+    background-color: #1C8763;
+    height: 150px;
+    width: 150px;
+}
+.color-2 {
+    display: inline-block;
+    background-color: #09B388;
+    height: 150px;
+    width: 150px;
+}
+.color-3 {
+    display: inline-block;
+    background-color: #8EB3AA;
+    height: 150px;
+    width: 150px;
+}
+.color-4 {
+    display: inline-block;
+    background-color: #075844;
+    height: 150px;
+    width: 150px;
+}
+.color-5 {
+    display: inline-block;
+    background-color: #519C89;
+    height: 150px;
+    width: 150px;
+}
+
+.wireframes {
+
+}
+
+.wireframeimg {
+    margin: 15px;
 }
