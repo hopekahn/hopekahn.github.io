@@ -4,6 +4,7 @@ font-family: 'Oxygen', sans-serif;
 h1 {
     font-size: 50px;
     font-family: 'Alfa Slab One', cursive;
+    color: blue;
 }
 
 .firstp, .secondp, .thirdp {
@@ -98,4 +99,10 @@ font-family: 'Oxygen', sans-serif;
 
 .wireframeimg {
     margin: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
 }
