@@ -1,24 +1,60 @@
-font-family: 'Alfa Slab One', cursive;
+font-family: 'Alfa Slab One';
 font-family: 'Oxygen', sans-serif;
 
-h1 {
+.banner {
+    text-align: center;
+    width: 100%;
+}
+
+/*RESUME PAGE CSS */
+.resumecss h1 {
     font-size: 50px;
-    font-family: 'Alfa Slab One', cursive;
-    color: blue;
+    font-family: 'Alfa Slab One';
+    color: #075844;
 }
 
-.firstp, .secondp, .thirdp {
-    font-family: 'Oxygen', sans-serif;
-    font-size: 20px;
+.resumecss h2 {
+    color: #ffffff;
+    background-color: #075844;
+    font-family: 'Alfa Slab One',
+    font-weight:300;
 }
 
-.subhead {
+.resumecss h3 {
     font-family: 'Oxygen', sans-serif;
-    font-size: 23px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
 }
+
+.resumecss h4 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 75;
+    margin: 0;
+   padding: 0;
+}
+
+.resumecss h5 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+   padding: 0;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
 
 ul {
     list-style-type: square;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+li {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
 }
@@ -28,6 +64,214 @@ ol {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
 }
+
+.bio {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+}
+
+.contact {
+    text-align: center;
+}
+.name {
+        color: #075844;
+        font-family: 'Alfa Slab One';
+        font-weight: 100px;
+        text-align: center;
+    }
+
+.title {
+        text-align: center;
+        font-style:italic;
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 300px;
+        border-bottom: 1px solid black; align: center;
+    }
+
+.resumecss {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hercampus, .capgaz, .poa, .igy, .dgi, .merrill {
+    border-bottom: 1px solid black; margin: auto;
+    padding-top: 2px;
+}
+
+.ovary, .trace {
+    padding-top: 2px;
+}
+
+.headshot {
+    align: right;
+    width: 200px;
+    float: right;
+    margin: 0 0 0 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.firstp, .secondp, .thirdp {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
+
+
+/*CLIPS PAGE CSS */
+
+.clipscss h1 {
+    text-align: center;
+    font-family: 'Alfa Slab One';
+    font-size: 50px;
+}
+
+.clipscss h3 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 2000;
+    font-size: 20px;
+    margin: 1;
+    font-style: bold;
+}
+
+.clipscss h2 {
+    background-color: #075844;
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    padding: 3;
+    font-size: 30px;
+    text-align: center;
+}
+
+.freetown, .storm, .usna, .theater, .masks, .dasan, .boat, .money, .city, .candace  {
+    border: 5px solid #075844;
+    padding: 10px;
+    margin: 3;
+}
+
+
+.header {
+    margin-bottom: 20px;
+ }
+
+ .header img {
+     width: 100%;
+ }
+
+ .indexphoto {
+display: flex;
+justify-content: center;
+gap: 15px;
+ }
+.indexphoto img, .indexphoto div {
+   width: 45%;
+   display: inline-block;
+}
+
+/* social button
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+ /* .indexphoto {
+     display: flex;
+     align-items: stretch;
+ }
+
+ .indexphoto img {
+     width: 100%;
+     flex-basis: 50%;
+     max-width: 600px;
+ }
+
+ .indexphoto div {
+     flex-grow: 1;
+ }
+ */
+
+ .indexphoto div.buttonbox {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+a.button{
+    display:inline-block;
+    padding:1.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Oxygen', sans-serif;
+    font-weight:500;
+    color:#FFFFFF;
+    background-color:#8EB3AA;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.button:hover{
+    background-color:#519C89;
+}
+@media all and (max-width:30em){
+ a.button{
+    display:block;
+    margin:0.2em auto;
+ }
+}
+
+/* PAGES BUTTON SET UP*/
+
+div.pagesbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #1C8763;
+    padding: 20px;
+
+}
+
+a.button{
+   display:inline-block;
+   padding:1.3em 1.2em;
+   margin:0 0.3em 0.3em 0;
+   border-radius:2em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family:'Oxygen', sans-serif;
+   font-weight:500;
+   color:#FFFFFF;
+   background-color:#8EB3AA;
+   text-align:center;
+   transition: all 0.2s;
+}
+a.button:hover{
+   background-color:#519C89;
+}
+@media all and (max-width:30em){
+ a.button{
+    display:block;
+    margin:0.2em auto;
+ }
+}
+
+
+
+/*DISPLAY PAGE */
+.subhead {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 23px;
+}
+
 
 .subhead2 {
     font-family: 'Oxygen', sans-serif;
@@ -100,12 +344,3 @@ font-family: 'Oxygen', sans-serif;
 .wireframeimg {
     margin: 15px;
 }
-
-.header {
-    display: flex;
-    align-items: center; }
-
-    @media only screen and (max-width: 600px) {
-    	.media-query-example-mobile {
-    	width: 40%
-    	}
