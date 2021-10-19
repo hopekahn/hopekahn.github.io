@@ -1,6 +1,44 @@
 font-family: 'Anton', sans-serif;
 font-family: 'Oxygen', sans-serif;
 
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
 .banner {
     text-align: center;
     width: 100%;
@@ -14,14 +52,15 @@ body {
 .resumecss h1 {
     font-size: 50px;
     font-family: 'Anton', sans-serif;
-    color: #075844;
+    color: #162521;
     text-align: center;
     letter-spacing: 2px;
+    font-weight: normal;
 }
 
 .resumecss h2 {
     color: #F6EDDB;
-    background-color: #075844;
+    background-color: #DD6E42;
     font-family: 'Anton', sans-serif;
     letter-spacing: 1px;
     font-weight: 500;
@@ -54,6 +93,7 @@ body {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
 }
+
 
 
 ul {
@@ -140,7 +180,7 @@ ol {
     text-align: center;
     font-family: 'Anton', sans-serif;
     font-size: 50px;
-    color: #075844;
+    color: #162521;
 }
 
 .clipscss h3 {
@@ -149,12 +189,12 @@ ol {
     font-size: 20px;
     margin: 1;
     font-style: bold;
-    color: #075844;
+    color: #6A3E37;
     letter-spacing: 1px;
 }
 
 .clipscss h2 {
-    background-color: #075844;
+    background-color: #DD6E42;
     color: #F6EDDB;
     font-family: 'Anton', sans-serif;
     padding: 3;
@@ -166,17 +206,17 @@ ol {
 .clipscss p {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
-    color: #075844;
+    color: #162521;
 }
 
 .clipscss a {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
-    color: #075844;
+    color: #162521;
 }
 
 .freetown, .storm, .usna, .theater, .masks, .dasan, .boat, .money, .city, .candace, .terpoets, .ambassadors, .dining, .muslim  {
-    border: 5px solid #075844;
+    border: 5px solid #5B7553;
     padding: 10px;
     margin: 3;
 }
@@ -199,6 +239,160 @@ gap: 15px;
 .indexphoto img, .indexphoto div {
    width: 35%;
    display: inline-block;
+}
+
+/*about PAGE */
+
+.aboutcss p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #162521;
+}
+
+.aboutcss h1 {
+    font-family: 'anton',sans-serif;
+    color: #162521;
+    letter-spacing: 1px;
+    text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #DD6E42;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.content h2 {
+    font-family: 'anton', sans-serif;
+    font-weight: lighter;
+    color: #6A3E37;
+}
+.content h3 {
+    font-family: 'oxford', sans-serif;
+    font-weight: bold;
+    color:  #5B7553;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 31px;
+  }
+
+/* Full-width containers */
+  .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+/* Make sure that all arrows are pointing leftwards */
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+/* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+    left: 15px;
+  }
+
+/* Make all right containers behave like the left ones */
+  .right {
+    left: 0%;
+  }
 }
 
 /* social button
@@ -228,13 +422,14 @@ gap: 15px;
  }
  */
 
-
 .buttonbox p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-weight: 200px;
-    color: #075844;
+    color: #5B7553;
+    border: 3px dotted #075844;
+    padding: 10px;
 
 }
 
@@ -253,13 +448,13 @@ a.button{
     text-decoration:none;
     font-family:'Oxygen', sans-serif;
     font-weight:500;
-    color: #F6EDDB;
-    background-color:#8EB3AA;
+    color: #5B7553;
+    background-color:#5B7553;
     text-align:center;
     transition: all 0.2s;
 }
 a.button:hover{
-    background-color:#519C89;
+    background-color:#5B7553;
 }
 @media all and (max-width:30em){
  a.button{
@@ -274,7 +469,7 @@ div.pagesbuttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #075844;
+    background-color: #5B7553;
     padding: 20px;
 
 }
@@ -289,12 +484,12 @@ a.button{
    font-family:'Oxygen', sans-serif;
    font-weight:500;
    color:#FFFFFF;
-   background-color:#8EB3AA;
+   background-color:#6A3E37;
    text-align:center;
    transition: all 0.2s;
 }
 a.button:hover{
-   background-color:#519C89;
+   background-color:#7A9970;
 }
 @media all and (max-width:30em){
  a.button{
