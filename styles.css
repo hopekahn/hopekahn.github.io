@@ -184,17 +184,16 @@ ol {
 }
 
 .clipscss h3 {
-    font-family: 'Anton', sans-serif;
-    font-weight: 2000;
+    font-family: 'oxford', sans-serif;
+    font-weight: 5000;
     font-size: 20px;
     margin: 1;
     font-style: bold;
     color: #6A3E37;
-    letter-spacing: 1px;
 }
 
 .clipscss h2 {
-    background-color: #DD6E42;
+    background-color: #6A3E37;
     color: #F6EDDB;
     font-family: 'Anton', sans-serif;
     padding: 3;
