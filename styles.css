@@ -11,13 +11,14 @@ font-family: 'Oxygen', sans-serif;
     font-size: 50px;
     font-family: 'Alfa Slab One';
     color: #075844;
+    text-align: center;
 }
 
 .resumecss h2 {
     color: #ffffff;
     background-color: #075844;
     font-family: 'Alfa Slab One',
-    font-weight:300;
+    font-weight: 300;
 }
 
 .resumecss h3 {
@@ -65,9 +66,9 @@ ol {
     font-size: 15px;
 }
 
-.bio {
+.bio p {
     font-family: 'Oxygen', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .contact {
@@ -168,7 +169,7 @@ justify-content: center;
 gap: 15px;
  }
 .indexphoto img, .indexphoto div {
-   width: 45%;
+   width: 35%;
    display: inline-block;
 }
 
@@ -198,6 +199,13 @@ gap: 15px;
      flex-grow: 1;
  }
  */
+.buttonbox p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 200px;
+
+}
 
  .indexphoto div.buttonbox {
      display: flex;
@@ -235,7 +243,7 @@ div.pagesbuttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #1C8763;
+    background-color: #075844;
     padding: 20px;
 
 }
