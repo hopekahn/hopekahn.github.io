@@ -1,4 +1,4 @@
-font-family: 'Alfa Slab One';
+font-family: 'Anton', sans-serif;
 font-family: 'Oxygen', sans-serif;
 
 .banner {
@@ -6,19 +6,26 @@ font-family: 'Oxygen', sans-serif;
     width: 100%;
 }
 
+body {
+    background-color: #F6EDDB;
+}
+
 /*RESUME PAGE CSS */
 .resumecss h1 {
     font-size: 50px;
-    font-family: 'Alfa Slab One';
+    font-family: 'Anton', sans-serif;
     color: #075844;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .resumecss h2 {
-    color: #ffffff;
+    color: #F6EDDB;
     background-color: #075844;
-    font-family: 'Alfa Slab One',
-    font-weight: 300;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-left: 2px;
 }
 
 .resumecss h3 {
@@ -43,7 +50,7 @@ font-family: 'Oxygen', sans-serif;
    padding: 0;
 }
 
-p {
+.resumecss p {
     font-family: 'Oxygen', sans-serif;
     font-size: 15px;
 }
@@ -69,10 +76,14 @@ ol {
 .bio p {
     font-family: 'Oxygen', sans-serif;
     font-size: 20px;
+    font-weight: lighter;
 }
 
 .contact {
     text-align: center;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 10px;
+    font-weight: lighter;
 }
 .name {
         color: #075844;
@@ -127,32 +138,49 @@ ol {
 
 .clipscss h1 {
     text-align: center;
-    font-family: 'Alfa Slab One';
+    font-family: 'Anton', sans-serif;
     font-size: 50px;
+    color: #075844;
 }
 
 .clipscss h3 {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Anton', sans-serif;
     font-weight: 2000;
     font-size: 20px;
     margin: 1;
     font-style: bold;
+    color: #075844;
+    letter-spacing: 1px;
 }
 
 .clipscss h2 {
     background-color: #075844;
-    color: white;
-    font-family: 'Oxygen', sans-serif;
+    color: #F6EDDB;
+    font-family: 'Anton', sans-serif;
     padding: 3;
     font-size: 30px;
     text-align: center;
+    letter-spacing: 1px;
 }
 
-.freetown, .storm, .usna, .theater, .masks, .dasan, .boat, .money, .city, .candace  {
+.clipscss p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #075844;
+}
+
+.clipscss a {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 15px;
+    color: #075844;
+}
+
+.freetown, .storm, .usna, .theater, .masks, .dasan, .boat, .money, .city, .candace, .terpoets, .ambassadors, .dining, .muslim  {
     border: 5px solid #075844;
     padding: 10px;
     margin: 3;
 }
+
 
 
 .header {
@@ -199,11 +227,14 @@ gap: 15px;
      flex-grow: 1;
  }
  */
+
+
 .buttonbox p {
     font-size: 20px;
     text-align: center;
     font-family: 'Oxygen', sans-serif;
     font-weight: 200px;
+    color: #075844;
 
 }
 
@@ -222,7 +253,7 @@ a.button{
     text-decoration:none;
     font-family:'Oxygen', sans-serif;
     font-weight:500;
-    color:#FFFFFF;
+    color: #F6EDDB;
     background-color:#8EB3AA;
     text-align:center;
     transition: all 0.2s;
