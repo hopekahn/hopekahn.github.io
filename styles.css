@@ -234,6 +234,7 @@ ol {
 
  .header img {
      width: 100%;
+     display:block;
  }
 .headerindex img {
      width: 100%;
@@ -487,7 +488,8 @@ div.pagesbuttons {
     flex-direction: row;
     justify-content: center;
     background-color: #5B7553;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-top: 0;
     margin: 0px;
     color: #F6EDDB;
 
