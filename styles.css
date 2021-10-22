@@ -352,26 +352,7 @@ font-family: 'Oxygen', sans-serif; */
          left: 0%;
     }
 }
-/* social button .fa {
-     padding: 20px;
-     font-size: 30px;
-     width: 50px;
-     text-align: center;
-     text-decoration: none;
-}
-/* .indexphoto {
-     display: flex;
-     align-items: stretch;
-}
- .indexphoto img {
-     width: 100%;
-     flex-basis: 50%;
-     max-width: 600px;
-}
- .indexphoto div {
-     flex-grow: 1;
-}
- */
+
  .buttonbox p {
      font-size: 18px;
      text-align: center;
@@ -399,6 +380,7 @@ font-family: 'Oxygen', sans-serif; */
      background-color:#5B7553;
      text-align:center;
      transition: all 0.2s;
+     width: 8em;
 }
  a.button:hover{
      background-color:#5B7553;
